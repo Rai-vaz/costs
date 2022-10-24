@@ -1,0 +1,51 @@
+{
+  "projects": [
+    {
+      "name": "scssdsd",
+      "budget": "27",
+      "cost": 0,
+      "services": [],
+      "id": 1
+    },
+    {
+      "name": "assfdfdf",
+      "budget": "23",
+      "category": {
+        "id": "3",
+        "name": "Desenvolvimento"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 2
+    },
+    {
+      "name": "Projeto teste",
+      "budget": "50000",
+      "category": {
+        "id": "2",
+        "name": "Design"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 3
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Infra"
+    },
+    {
+      "id": 2,
+      "name": "Design"
+    },
+    {
+      "id": 3,
+      "name": "Desenvolvimento"
+    },
+    {
+      "id": 4,
+      "name": "Planejamento"
+    }
+  ]
+}

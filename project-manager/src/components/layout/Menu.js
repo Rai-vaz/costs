@@ -15,7 +15,7 @@ function Menu(params) {
                     <li className={styles.item}><Link to='/projetos'>Projetos</Link></li>
                     <li className={styles.item}><Link to='/empresa'>Empresa</Link></li>
                     <li className={styles.item}><Link to='/contato'>Contato</Link></li>
-                    <li className={styles.item}><Link to='/novoprojeto'>Novo Projeto</Link></li>
+                    
                 </ul>
             </Container>
         </nav>
