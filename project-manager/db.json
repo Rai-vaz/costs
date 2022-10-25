@@ -28,6 +28,116 @@
       "cost": 0,
       "services": [],
       "id": 3
+    },
+    {
+      "name": "Outro projeto",
+      "budget": "58444",
+      "category": {
+        "id": "2",
+        "name": "Design"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 4
+    },
+    {
+      "name": "Projeto padrão",
+      "budget": "5885666",
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 5
+    },
+    {
+      "name": "Projeto 1",
+      "budget": "552266",
+      "category": {
+        "id": "2",
+        "name": "Design"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 6
+    },
+    {
+      "name": "hhgjggg",
+      "budget": "588888",
+      "category": {
+        "id": "2",
+        "name": "Design"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 7
+    },
+    {
+      "name": "Projeto 3",
+      "budget": "558888",
+      "category": {
+        "id": "3",
+        "name": "Desenvolvimento"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 8
+    },
+    {
+      "name": "Projeto 5",
+      "budget": "255553",
+      "category": {
+        "id": "2",
+        "name": "Design"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 9
+    },
+    {
+      "name": "Projeto padrão 3",
+      "budget": "5566666",
+      "category": {
+        "id": "3",
+        "name": "Desenvolvimento"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 10
+    },
+    {
+      "name": "rai vaz",
+      "budget": "464544",
+      "category": {
+        "id": "3",
+        "name": "Desenvolvimento"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 11
+    },
+    {
+      "name": "ASA 34",
+      "budget": "254555",
+      "category": {
+        "id": "3",
+        "name": "Desenvolvimento"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 12
+    },
+    {
+      "name": "ASA 35",
+      "budget": "255888",
+      "category": {
+        "id": "4",
+        "name": "Planejamento"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 13
     }
   ],
   "categories": [

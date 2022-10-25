@@ -4,7 +4,7 @@ import ProjectForm from '../../project/ProjectForm'
 
 function NewProject() {
     //Redirecionando
-    const history =  useNavigate()
+    const navigate =  useNavigate()
 
     function createPost(project) {
         //criando projeto vazio
@@ -20,9 +20,8 @@ function NewProject() {
             body: JSON.stringify(project),
         }).then((resp) => resp.json())
         .then((data) => {
-            console.log(data)
             //redirect
-            history('/projetos', {message: 'Projeto adicionado com sucesso'})
+            navigate('/projetos', { state: {message: 'Projeto criado com sucesso!'} })
         }).catch((err) => console.log(err))
     }
 
