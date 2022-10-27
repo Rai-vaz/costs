@@ -27,14 +27,14 @@ function ProjectForm({handleSubmit, btnText, projectData}) {
         handleSubmit(project)
     }
 
-    //metodo
+    //metodo campo nome
     function handleChange(e) {
         //adicionando valor do capo ao nome do projeto
         setProject({...project, [e.target.name]: e.target.value})
         
     }
 
-      //metodo
+    //metodo
     function handleSelect(e) {
         //adicionando valor do capo ao nome do projeto
         setProject({...project, category:{
