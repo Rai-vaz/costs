@@ -9,12 +9,20 @@ import ProjectCard from '../../project/ProjectCard'
 function Projects() {
     //Use state para os projetos que vem do banco
     const [projects, setProjects] = useState([])
-
+    
     const location = useLocation()
     let message = ''
     if(location.state){
         //pegando message
         message = location.state.message
+    }
+
+    var test = {
+        name: 'Raí',
+        endereco:{
+            rua: "Pedro",
+            nu: 25
+        }
     }
 
     //com um array vazio ele executa apenas uma vez
@@ -32,22 +40,19 @@ function Projects() {
                 <h1>Meus Projetos</h1>
                 <LinkButton to='/novoprojeto' text='Criar Projeto'/>
             </div>
-            {console.table(projects.category.name)}
+            
             {message && <Message msg={message} type='success'/>}
             <Container customClass='start'>
-            {
-               projects.length > 0 && projects.map((project) => (  
+            {                
+               projects.length > 0 && projects.map((project) => (     
                 <ProjectCard 
                 name={project.name}
                 budget={project.budget}
-                
-
-                key={project.id}
-                
-               />)              
-                )
-                
-             }
+                //? serve para verificar se a propiedade à sua esquerda existe
+                category={project.category?.name}
+                key={project.id}/>)              
+                )             
+            }
             </Container>
 
         </div>
