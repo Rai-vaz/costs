@@ -10,6 +10,28 @@
       "cost": 0,
       "services": [],
       "id": 1
+    },
+    {
+      "name": "Casa praia",
+      "budget": "120000",
+      "category": {
+        "id": "4",
+        "name": "Planejamento"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 2
+    },
+    {
+      "name": "Manutenção no sistema",
+      "budget": "250521",
+      "category": {
+        "id": "3",
+        "name": "Desenvolvimento"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 3
     }
   ],
   "categories": [
