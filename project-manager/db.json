@@ -2,7 +2,7 @@
   "projects": [
     {
       "name": "Contrução apartamento",
-      "budget": "60000",
+      "budget": "5846424",
       "category": {
         "id": "4",
         "name": "Planejamento"
@@ -10,17 +10,6 @@
       "cost": 0,
       "services": [],
       "id": 1
-    },
-    {
-      "name": "Página de compras",
-      "budget": "23547",
-      "category": {
-        "id": "3",
-        "name": "Desenvolvimento"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 2
     }
   ],
   "categories": [
