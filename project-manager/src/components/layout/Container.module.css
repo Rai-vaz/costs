@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 .container{
-    width: 1200px;
+    width: 97vw;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
@@ -10,7 +10,8 @@
 }
 
 .min-height{
-    min-height: 75vh;
+    min-height: 73.5vh;
+    margin: 0;
     
 }
 
