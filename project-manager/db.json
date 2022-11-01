@@ -12,22 +12,22 @@
       "id": 1
     },
     {
-      "name": "Casa praia",
-      "budget": "120000",
+      "name": "Casa praia Santos",
+      "budget": "170000",
       "category": {
-        "id": "4",
-        "name": "Planejamento"
+        "id": "3",
+        "name": "Desenvolvimento"
       },
       "cost": 0,
       "services": [],
       "id": 2
     },
     {
-      "name": "Manutenção no sistema",
-      "budget": "250521",
+      "name": "Manutenção no sistemas",
+      "budget": "250620",
       "category": {
-        "id": "3",
-        "name": "Desenvolvimento"
+        "id": "1",
+        "name": "Infra"
       },
       "cost": 0,
       "services": [],
