@@ -7,12 +7,14 @@ import Container from '../layout/Container'
 import ProjectForm from '../../project/ProjectForm'
 import Message from '../layout/Message'
 import ServiceForm from '../service/ServiceForm'
+import ServiceCard from '../service/ServiceCard'
 
 
 function Project() {
     //pega o valor do id que está vindo pela a url
     const {id} = useParams()
     const [project, setProject] = useState([])
+    const [service, setService] = useState([])
     const [showProjectForm, setShowProjectForm] = useState(false)
     const [showServiceForm, setShowServiceForm] = useState(false)
     const [message, setMessage] = useState()
@@ -27,8 +29,9 @@ function Project() {
             }
             }).then((resp) => resp.json()).then((data) => {
                 setProject(data)
+                setService(data.services)
             }).catch(erro => console.log(erro))
-        }, 3000)
+        }, 2000)
     },[id])
 
     function editPost(project) {
@@ -87,11 +90,14 @@ function Project() {
             body: JSON.stringify(project)
         }).then((resp) => resp.json()).then(
             (data) => {
-                //exebir os serviços
-                console.log(data)
+                setShowServiceForm(false)
             }
         ).catch((erro) => {console.log(erro)})
 
+    }
+
+    function removeService(params) {
+        
     }
 
     function toggleProjectForm() {
@@ -151,7 +157,20 @@ function Project() {
                         </div>
                         <h2>Serviço</h2>
                         <Container customClass='start'>
-                            <p>Item de serviços</p>
+                            {service.length > 0 &&
+                                service.map((servi) => (
+                                    <ServiceCard
+                                        id={servi.id}
+                                        name={servi.name}
+                                        cost={servi.cost}
+                                        description={servi.description}
+                                        key={servi.id}
+                                        handleRemove={removeService}
+                                    />
+                                ))
+                            
+                            }
+                            {service.length == 0 && <p>Não há serviços cadastrados</p>}
                         </Container>
                     </Container>
                 </div>           

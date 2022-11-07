@@ -7,7 +7,7 @@
         "id": "4",
         "name": "Planejamento"
       },
-      "cost": 18560,
+      "cost": 24480,
       "services": [
         {
           "name": "Pintor",
@@ -20,6 +20,12 @@
           "cost": "8560",
           "description": "Piscina na cobertura",
           "id": "b44b18d6-700a-42ef-8e82-477d905e34d1"
+        },
+        {
+          "name": "Reforma quarto",
+          "cost": "5920",
+          "description": "Reformar o quarto da visita",
+          "id": "fa6777dd-3620-4358-b75b-47744e5ed53f"
         }
       ],
       "id": 1
