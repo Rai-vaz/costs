@@ -7,8 +7,21 @@
         "id": "4",
         "name": "Planejamento"
       },
-      "cost": 0,
-      "services": [],
+      "cost": 18560,
+      "services": [
+        {
+          "name": "Pintor",
+          "cost": "10000",
+          "description": "Pintar o ap",
+          "id": "441920e7-444e-431d-830d-dee07b252a3e"
+        },
+        {
+          "name": "Piscina",
+          "cost": "8560",
+          "description": "Piscina na cobertura",
+          "id": "b44b18d6-700a-42ef-8e82-477d905e34d1"
+        }
+      ],
       "id": 1
     },
     {
