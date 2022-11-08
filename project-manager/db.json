@@ -49,7 +49,7 @@
         "id": "4",
         "name": "Planejamento"
       },
-      "cost": 8300,
+      "cost": 10200,
       "services": [
         {
           "name": "Aluguel do carro",
@@ -68,6 +68,18 @@
           "cost": "1500",
           "description": "Passeio pela praia",
           "id": "450b14b7-5be2-4803-bee0-92665acfb874"
+        },
+        {
+          "name": "Visitar cristo redentor",
+          "cost": "800",
+          "description": "Visita ao cristo no sábado se manhã",
+          "id": "777fde26-f287-4a7c-909e-27db449b56a1"
+        },
+        {
+          "name": "Praia",
+          "cost": "1100",
+          "description": "2 dias de praia",
+          "id": "50fede5f-5dce-434e-b018-7bc21e90b9df"
         }
       ],
       "id": 4
