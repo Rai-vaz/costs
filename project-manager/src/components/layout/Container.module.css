@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 .container{
-    width: 97vw;
+    width: 94vw;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;

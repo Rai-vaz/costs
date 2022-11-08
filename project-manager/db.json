@@ -1,25 +1,21 @@
 {
   "projects": [
     {
-      "name": "Contrução apartamento",
-      "budget": "5846424",
-      "category": {
-        "id": "4",
-        "name": "Planejamento"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 1
-    },
-    {
       "name": "Casa praia Santos",
-      "budget": "170000",
+      "budget": "17000",
       "category": {
         "id": "3",
         "name": "Desenvolvimento"
       },
-      "cost": 0,
-      "services": [],
+      "cost": 5000,
+      "services": [
+        {
+          "name": "Área de churrasco",
+          "cost": "5000",
+          "description": "Espaço para se divertir",
+          "id": "a7b5ecdb-1ff0-4c9a-9ebf-d94782173db0"
+        }
+      ],
       "id": 2
     },
     {
@@ -29,8 +25,21 @@
         "id": "1",
         "name": "Infra"
       },
-      "cost": 0,
-      "services": [],
+      "cost": 14785,
+      "services": [
+        {
+          "name": "fsddssd",
+          "cost": "8889",
+          "description": "sdddfdff",
+          "id": "ee01645e-27eb-4588-ba87-a8513ca56887"
+        },
+        {
+          "name": "Envio de a-mail",
+          "cost": "5896",
+          "description": "Envio de email ao se cadastra no sitema",
+          "id": "d41668df-b3c5-4a90-ae3d-9df52e79dbea"
+        }
+      ],
       "id": 3
     }
   ],

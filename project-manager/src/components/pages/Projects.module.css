@@ -1,4 +1,5 @@
 .project_container{
+    box-sizing: border-box;
     padding: 2em;
 }
 
