@@ -96,8 +96,27 @@ function Project() {
 
     }
 
-    function removeService(params) {
-        
+    function removeService(id, cost) {
+        setMessage('')
+        //Retornando todos o serviços com exeção do excluido
+        const serviceUpdated = project.services.filter((services) => services.id !== id)
+        const projectUpdated = project
+        projectUpdated.services = serviceUpdated
+        projectUpdated.cost = parseFloat(projectUpdated.cost) - parseFloat(cost)
+        fetch(`http://localhost:5000/projects/${projectUpdated.id}`,{
+            method:'PATCH',
+            headers:{
+                'Content-Type':'application/json'
+            },
+            body: JSON.stringify(projectUpdated)
+        }).then((resp) => resp.json()).then(
+            (data) => {
+                setProject(projectUpdated)
+                setService(serviceUpdated)
+                setType('success')
+                setMessage('Serviço removido com sucesso')
+            }
+        ).catch((erro) => console.log(erro))
     }
 
     function toggleProjectForm() {
