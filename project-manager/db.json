@@ -41,6 +41,36 @@
         }
       ],
       "id": 3
+    },
+    {
+      "name": "Viagem de férias",
+      "budget": "12000",
+      "category": {
+        "id": "4",
+        "name": "Planejamento"
+      },
+      "cost": 8300,
+      "services": [
+        {
+          "name": "Aluguel do carro",
+          "cost": "4500",
+          "description": "alugar carro para viajar",
+          "id": "e787c2c4-fb35-414a-ba8c-ba93e14f9cda"
+        },
+        {
+          "name": "Hotel",
+          "cost": "2300",
+          "description": "Alugar hotel 4 estrelas",
+          "id": "3a92a7f1-e581-45eb-a1e1-26a06c68a6e7"
+        },
+        {
+          "name": "Passeios",
+          "cost": "1500",
+          "description": "Passeio pela praia",
+          "id": "450b14b7-5be2-4803-bee0-92665acfb874"
+        }
+      ],
+      "id": 4
     }
   ],
   "categories": [

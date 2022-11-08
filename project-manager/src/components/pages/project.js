@@ -148,7 +148,7 @@ function Project() {
                                         <span>Total de orçamento: </span>{`${Number(project.budget).toLocaleString('pt-br',{style: 'currency', currency: 'BRL'})}`}
                                     </p>
                                     <p>
-                                        <span>Total utilizado: </span>{project.cost}
+                                        <span>Total utilizado: </span>{Number(project.cost).toLocaleString('pt-br',{style:'currency', currency:'BRL'})}
                                     </p>
                                 </div>
                             ) : (
